@@ -1,0 +1,5 @@
+// 3-all
+var docs = db.school.find();
+docs.forEach(function(doc) {
+    print(tojson(doc));
+});
