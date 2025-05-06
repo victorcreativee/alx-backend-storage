@@ -1,0 +1,5 @@
+// 100-find
+var docs = db.school.find({ name: { $regex: "^ALX" } });
+docs.forEach(function(doc) {
+    print(tojson(doc));
+});

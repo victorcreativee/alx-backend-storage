@@ -1,0 +1,5 @@
+// 4-match
+var docs = db.school.find({ name: "ALX" });
+docs.forEach(function(doc) {
+    print(tojson(doc));
+});
